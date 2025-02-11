@@ -25,10 +25,10 @@ const HomePage = () => {
              </div>
                 <div>
                 <label> Enter Password</label>
-                <input  value={roomPassword} onChange = {e => setRoomPassword(e.target.value)}type="text" required placeholder="Enter Password" />
+                <input  value={roomPassword} onChange = {e => setRoomPassword(e.target.value)}type="text" required placeholder="Enter Your Password" />
 
              </div>
-             <button type="submit">Enter Room</button>
+             <button type="submit">Join Room</button>
             </form>
         </div>
     );
